@@ -19,26 +19,43 @@
 .menu {
     background-color: bisque;
     grid-area: span 1 / span 3;
-    text-align: center;
+    gap: 5px;
+    padding: 5px;
+    margin: 5px;
 }
 
 .main {
     background-color: lightblue;
     grid-area: span 6 / span 2;
-    text-align: center;
-    align-content: center;
+    gap: 5px;
+    padding: 5px;
+    margin: 5px;
 }
 
 .secondary {
     background-color: lightgreen;
     grid-area: span 6 / span 1;
-    text-align: center;
-    align-content: center;
+    gap: 5px;
+    padding: 5px;
+    margin: 5px;
 }
 
 .footer {
     background-color: lightcoral;
     grid-area: span 1 / span 3;
     text-align: center;
+    padding: 5px;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: lightgray ;
+}
+h1, h2 {
+    margin: 5px;
+}
+
+p {
+    margin: 5px;
 }
